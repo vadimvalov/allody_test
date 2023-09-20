@@ -1,0 +1,93 @@
+@import url("https://fonts.cdnfonts.com/css/roboto");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#down {
+  bottom: 0;
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -15px;
+  z-index: 2;
+}
+
+#boxes {
+  width: 550px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+}
+
+#header-container {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 50;
+  color: white;
+}
+
+header {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+#main {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  z-index: 1;
+}
+
+#left,
+#right {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+}
+
+#girl {
+  top: 0;
+  left: 1%;
+  position: absolute;
+  height: 100%;
+  z-index: 3;
+}
+
+#boy {
+  top: 0;
+  right: 0%;
+  position: absolute;
+  height: 100%;
+  z-index: 3;
+}
+
+#left {
+  left: 0;
+  z-index: 2;
+}
+
+#right {
+  right: 0;
+  z-index: 2;
+}
